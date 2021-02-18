@@ -14,3 +14,6 @@ DB_PASSWORD= `your password`
 Затем выполните в консоли, чтобы создать таблицы в БД. Для успешного заполнения базы данных необходим composer на вашем сервере  
 launch the command line:  
 `php artisan migrate`  
+  
+для тестирования на локальном сервере выполните команду  
+`php artisan serve`  
